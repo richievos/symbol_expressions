@@ -3,10 +3,12 @@
 Symbol::Expression is a nice addition to the useful Symbol#to_proc semantics.
 
 Where you can already do:
-[1,2,3].map(&:to_s) => ["1","2","3"]
+  
+  [1,2,3].map(&:to_s) => ["1","2","3"]
 
 With Symbol::Expression you can now also do things like:
-[1,2,3].map(&:+[1]) => [2,3,4]
+
+  [1,2,3].map(&:+[1]) => [2,3,4]
 
 == Note on Patches/Pull Requests
  
