@@ -10,7 +10,7 @@ begin
     gem.email = "dev@groupon.com"
     gem.homepage = "http://github.com/evanfarrar/symbol_expressions"
     gem.authors = ["Groupon, Inc."]
-    gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.add_development_dependency "rspec", ">= 1.2.6"
     gem.add_development_dependency "yard", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
